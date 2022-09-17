@@ -1,4 +1,4 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 // import { CAMPSITES } from '../../app/shared/CAMPSITES';
 import { baseUrl } from '../../app/shared/baseUrl';
 import { mapImageURL } from '../../utils/mapImageURL';

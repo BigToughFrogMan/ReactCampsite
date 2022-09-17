@@ -1,9 +1,9 @@
 import { useSelector } from "react-redux";
 import { Col, Row } from "reactstrap";
+import Error from '../../components/Error';
+import Loading from '../../components/Loading';
 import CampsiteCard from "./CampsiteCard";
 import { selectAllCampsites } from "./campsitesSlice";
-import Loading from '../../components/Loading';
-import Error from '../../components/Error';
 
 const CampsitesList = () => {
   const campsites = useSelector(selectAllCampsites);
